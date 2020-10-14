@@ -1,0 +1,50 @@
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+   */
+  font-size: 10px;
+  scroll-behavior: auto;  
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #0D0F14;
+  border: 10px solid black;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  right; 0;
+  z-index: 1;
+}
+
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #EA4029;
+  color: white;
+}
+
+body {
+  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #232D36;
+  margin: 0;
+  padding: 0;
+}
