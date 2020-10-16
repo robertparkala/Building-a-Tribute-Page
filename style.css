@@ -48,3 +48,36 @@ body {
   margin: 0;
   padding: 0;
 }
+
+#spaceximage {
+  border-radius: 1000px;
+  border: 1px solid black;
+  max-width: 10%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (max-width 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: #EB4029;
+}
+
+#imagecaption {
+  margin-top: 10px;
+}
