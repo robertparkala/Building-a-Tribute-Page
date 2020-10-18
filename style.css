@@ -81,3 +81,143 @@ h2 {
 #imagecaption {
   margin-top: 10px;
 }
+
+a {
+  color: #477ca7;
+}
+
+#main {
+  margin: 0px 0px;
+  padding: 15px;
+  border-radius: 9px;
+  background: #eee;
+}
+
+img {
+  border-radius: 20px;
+  width: 100%;
+height: auto;
+max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.section {
+    height: 100%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    text-align: center;
+    background-color: #EA4029;
+    border: 2px solid black;
+    border-radius: 9%;
+    max-width: 50%
+}
+
+.content-center, .content-columns, .section-content {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+#stats .column3 {
+    text-align: center;
+}
+
+.column3 {
+    width: 30%;
+}
+
+#stats .number {
+    display: block;
+    font: 100px/100px D-DIN-Light,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0;
+}
+
+#stats .label {
+    display: block;
+    font: 20px/30px D-DIN-Medium,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.column, .column2, .column3 {
+    padding: 0px;
+    text-align: left;
+    vertical-align: top;
+    margin: 0 1%;
+    display: inline-block;
+    height: auto;
+}
+
+h3 {
+    font-size: 26px;
+    margin-bottom: 0;
+    text-align: left;
+
+}
+
+h6 {
+    font-weight: 300;
+    font-size: 100%;
+    text-align: left;
+}
+
+h3, h4, h5,h7 {
+    font-weight: 300;
+}
+  
+table {
+    margin: 10px 0;
+    border-spacing: 0px;
+}
+
+table tr th, table tr td {
+    padding: 5px;
+    text-align: left;
+    font-weight: 500;
+    border-bottom: 4px solid #e1e1e1;
+}
+
+div.alignright, img.alignright {
+    display: inline-block;
+    float: right;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+iframe {
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+p {
+    text-align: left;
+    font-weight: 500;
+}
+
+.wp-caption p.wp-caption-text {
+    font-weight: bolder;
+    color: rgb(50, 50, 50);
+}
+
+.wp-caption p.wp-caption-text {
+    margin: 0;
+    font-style: italic;
+    opacity: .5;
+    text-align: center;
+    padding-bottom: 0!important;
+}
+
+#svg {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
