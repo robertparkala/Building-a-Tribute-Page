@@ -14,7 +14,7 @@ html {
   width: 100%;
   top: 0px;
   left: 0;
-  right; 0;
+  right: 0;
   z-index: 1;
 }
 
@@ -62,13 +62,6 @@ h1 {
   font-size: 4rem;
   margin-top: 0;
   margin-bottom: 0;
-}
-
-@media (max-width 460px) {
-  h1 {
-    font-size: 3.5rem;
-    line-height: 1.2;
-  }
 }
 
 h2 {
@@ -187,7 +180,6 @@ table tr th, table tr td {
 
 div.alignright, img.alignright {
     display: inline-block;
-    float: right;
     margin-left: 1em;
     margin-top: 1em;
 }
@@ -220,4 +212,41 @@ p {
   margin: auto;
   margin-top: 10px;
   margin-bottom: 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  
+  main {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .topnav {
+    width: auto;
+  }
+
+  img {
+    width: 60%;
+  }
+
+}
+
+
+  /* Mobile */
+@media(max-width: 500px) {
+
+  main {
+    display: inline-block;
+    width: auto;
+  }
+
+  .topnav {
+    width: 100%;
+  }
+
+  img {
+    width: 60%;
+  }
+
 }
